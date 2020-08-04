@@ -62,6 +62,9 @@ input[type=submit], button {
     overflow:scroll;
     height:800px;
 }
-img.resize {
-  width:200px;
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 20px;
 }
