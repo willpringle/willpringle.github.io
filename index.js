@@ -1,9 +1,13 @@
 
 console.log('index working');
+
 $(document).ready(() => {
 
-  
-  $('#loginForm').submit((e) => {
+  console.log('e');  
+  $('#boton').submit((e) => {
+    e.preventDefault();
     
+    alert(navigator.userAgent);
+    console.log(navigator.connection);
   });
 });
